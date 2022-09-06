@@ -6,9 +6,9 @@ function media() {
     var media = (notaDoPrimeiroBimestre + notaDoSegundoBimestre + notaDoTerceiroBimestre + notaDoQuartoBimestre) / 4;
   
     if (media >= 7) {
-      alert("Uau! Aprovado com distinção");
+      alert("Parabéns, aprovado! Media " + media);
     } else if (media == 10) {
-      alert("Parabens, aprovado! Media " + media);
+      alert("Uau! Aprovado com distinção " + media);
     } else {
       alert("Reprovado!");
     }
